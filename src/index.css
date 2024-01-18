@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+html {
+  overflow-y: scroll;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Colors  */
+:root {
+  --top-menu-icon-color: #75b4d9;
+  --top-menu-icon-color-2: #44a1d7;
+  --top-menu-icon-color-3: #4098cb;
+  --top-menu-icon-color-light: rgba(117, 180, 217, 0.3);
+  --dark-1: #050505;
+  --dark-2: #18191a;
+  --dark-3: #242526;
+  --dark-4: #3a3b3c;
+  --dark-5: #65676b;
+  /* --bg-1: #e5e6e8; */
+  --bg-2: #f0f2f5;
+  --bg-3: #e4e6eb;
+  --bg-4: #f0f2f5;
+  --bg-5: #dde0e6;
+  --divider: #cfd1d6;
+  --divider-2: #d7d9de;
+  --shadow-1: rgba(0, 0, 0, 0.2);
+  --shadow-2: rgba(0, 0, 0, 0.1);
+  --shadow-3: rgba(0, 0, 0, 0.3);
+  --shadow-inset: rgba(255, 255, 255, 0.5);
+}
+
+/* Hovers */
+.hover1:hover {
+  background: var(--bg-3);
+  border: 0.2px solid var(--divider);
+}
+.hover2:hover {
+  background: var(--bg-2);
+}
+.hover3:hover {
+  background: var(--bg-3);
+}
+.hover4:hover {
+  background: var(--bg-3);
+  border: 1px solid var(--top-menu-icon-color);
+}
+.hover5:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(188.06, 188.06, 188.06, 0.05) 0%,
+    rgba(221, 221, 221, 0.5) 100%
+  );
+  border: 1px solid var(--top-menu-icon-color-light);
+}
